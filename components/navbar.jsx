@@ -11,7 +11,7 @@ function Navbar() {
           <div>
             <h1 className='header'>Zach Brose</h1>
           </div>
-          <div class="nav-links">
+          <div className="nav-links">
             <Link href='/'><a className={router.pathname == "/" ? "active" : ""}>Home</a></Link>
             <Link href='/about'><a className={router.pathname == "/about" ? "active" : ""}>About</a></Link>
             <Link href='/discography'><a className={router.pathname == "/discography" ? "active" : ""}>Discography</a></Link>

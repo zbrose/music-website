@@ -1,6 +1,6 @@
 function Contact() {
     return ( 
-        <h4 class="contact">zrbrose@gmail.com</h4>
+        <h4 className="contact">zrbrose@gmail.com</h4>
     );
 }
 

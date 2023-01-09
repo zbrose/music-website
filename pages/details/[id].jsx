@@ -12,7 +12,7 @@ function Details() {
     console.log(credit)
     return (
       <>
-        <p class="credits">{credit.name} : {credit.role} </p>
+        <p className="credits">{credit.name} : {credit.role} </p>
       </>
     )
   })
@@ -28,7 +28,7 @@ function Details() {
 
           <div>
             <h1 className="album-title">{foundAlbum.album}</h1>
-            <h2 class="artist-name">by {foundAlbum.artist}</h2>
+            <h2 className="artist-name">by {foundAlbum.artist}</h2>
             <p>{foundAlbum.blog}</p>
             {albumCredits}
             {/* bandcamp and spotify links */}

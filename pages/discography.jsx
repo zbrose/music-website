@@ -6,10 +6,10 @@ import { useRouter } from 'next/router'
 
 function Discography() {
 
-  const albums = albumData.map(album => {
+  const albums = albumData.map((album, i) => {
     return (
-      <div className="small-container">
-        <a className="album-link" target="_blank" href={album.link}>
+      <div key={`key-${i}`} className="small-container">
+        <a className="album-link" rel="noreferrer" target="_blank" href={album.link}>
           <img src={album.src} className="album-art" alt={album.alt}/>
         </a>
         <h2 className="album-title">{album.artist} - {album.album}</h2>
