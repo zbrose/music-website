@@ -12,10 +12,10 @@ export default function Home() {
 
       <main style={{textAlign:'center'}}>
           <Image
-            src='/images/zach2.jpg'
+            src='/images/zach3.jpg'
             alt='a pic of zach brose'
             width={800}
-            height={1000}
+            height={1200}
           /> 
       </main>
     </div>

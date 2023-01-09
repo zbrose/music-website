@@ -1,89 +1,144 @@
 export const albumData = [
   {
+    id:1,
     src: '/images/albumArt/smear.png',
     alt: 'a picture of the smear album cover',
     artist: 'Zach Brose',
-    album: 'Smear (2022)',
-    bandcampLink: 'https://zachbrose.bandcamp.com/album/smear',
-    spotifyLink: 'https://open.spotify.com/album/3XMmD7GT5O7uZ7XoQynKBN?si=QAMpN6nOSfOpZTl7vRF_tQ'
+    album: 'Smear',
+    year: 2022,
+    link: 'https://zachbrose.bandcamp.com/album/smear',
+    role: "all instruments, producer, mixer, engineer",
+    blog: "Smear is Zach's first full-length instrumental album"
   },
   {
+    id:2,
     src: '/images/albumArt/itsYourWorld.jpg',
     alt: 'a picture of the its your world album cover',
     artist: 'Zach Brose',
-    album: "It's Your World (2021)",
-    bandcampLink: 'https://zachbrose.bandcamp.com/album/its-your-world',
-    spotifyLink: 'https://open.spotify.com/track/6FQd3U0EW0y5drDEGxNY8G?si=33fe63a5a0d146da'
+    album: "It's Your World",
+    year: 2021,
+    link: 'https://zachbrose.bandcamp.com/album/its-your-world',
+    role: "all instruments, producer, mixer, engineer",
+    blog: "This record is tight"
   },
   {
+    id:3,
     src: '/images/albumArt/dayTapes2.jpg',
     alt: 'a picture of the day tapes 2 cover',
     artist: 'Zach Brose',
-    album: 'Day Tapes, Vol. 2 (2021)',
-    bandcampLink: 'https://zachbrose.bandcamp.com/album/day-tapes-vol-2',
-    spotifyLink: 'https://open.spotify.com/album/3LAiweSaSrLFsgcoz3nVAj?si=NHdz03ZaRdm_N0oQRdPGWQ'
+    album: 'Day Tapes, Vol. 2',
+    year: 2021,
+    link: 'https://zachbrose.bandcamp.com/album/day-tapes-vol-2',
+    role: "all instruments, producer, mixer, engineer",
+    blog: "This record is tight"
   },
   {
+    id:4,
     src: '/images/albumArt/dayTapes1.jpg',
     alt: 'a picture of the day tapes 1 cover',
     artist: 'Zach Brose',
-    album: 'Day Tapes, Vol. 1 (2021)',
-    bandcampLink: 'https://zachbrose.bandcamp.com/album/day-tapes-vol-1',
-    spotifyLink: 'https://open.spotify.com/album/0BAMwgN1GXcTygXW7EF1u5?si=lFKTCrKTRYCSpOFVIWrmBw'
+    album: 'Day Tapes, Vol. 1',
+    year: 2021,
+    link: 'https://zachbrose.bandcamp.com/album/day-tapes-vol-1',
+    role: "all instruments, producer, mixer, engineer",
+    blog: "This record is tight"
   },
   {
+    id:5,
     src: '/images/albumArt/kansasPlates3.jpg',
     alt: 'a picture of the kansas plates album cover',
     artist: 'Kansas Plates',
-    album: 'Kansas Plates (2022)',
-    bandcampLink: 'https://kansasplates.bandcamp.com/album/kansas-plates',
-    spotifyLink: 'https://open.spotify.com/album/1clr7GCJ3KFsHjBWQmZNkQ?si=51f0e44b0b844f99'
+    album: 'Kansas Plates',
+    year: 2021,
+    link: 'https://kansasplates.bandcamp.com/album/kansas-plates',
+    role: "guitar, writer",
+    blog: "This record is tight"
   },
   {
+    id:6,
     src: '/images/albumArt/kansasplates1.jpg',
     alt: 'a picture of the kansas plates album cover',
     artist: 'Kansas Plates',
-    album: 'Operator (2019) ',
-    bandcampLink: 'https://kansasplates.bandcamp.com/album/operator-2',
-    spotifyLink: 'https://open.spotify.com/album/1tFHhtxlAxW36cmt2XVzIm?si=31N-NI3yQoKgmgnIjdpUFg'
+    album: 'Operator',
+    year: 2019,
+    link: 'https://kansasplates.bandcamp.com/album/operator-2',
+    role: "guitar, writer",
+    blog: "This record is tight"
   },
   {
+    id:7,
     src: '/images/albumArt/arBirn.jpg',
     alt: 'a picture of the ar.birn album cover',
     artist: 'Ar.Birn',
-    album: 'ar.birn (2018)',
-    bandcampLink: 'https://arbirn.bandcamp.com/album/ar-birn',
-    spotifyLink: 'https://open.spotify.com/album/0emCEs5ANjsmfRSO6D8EBh?si=RwJngZoOQCeXqDilKBqYjQ'
+    album: 'ar.birn',
+    year: 2018,
+    link: 'https://arbirn.bandcamp.com/album/ar-birn',
+    role:"guitar, vocals, writer",
+    blog: "This record is tight"
   },
   {
+    id:8,
     src: '/images/albumArt/forYou.jpg',
     alt: 'a picture of the for you album cover',
     artist: 'Zach Brose and Luke Enyeart',
-    album: 'For You - Single (2021)',
-    bandcampLink: 'https://zachbrose.bandcamp.com/track/for-you-single',
-    spotifyLink: 'https://open.spotify.com/album/7rLpcFftiukAnOccZ4r2zo?si=beRVnK4uS_mB30yKPoAzzQ'
-  }
-]
-
-export const prodData = [
+    album: 'For You',
+    year: 2021,
+    link: 'https://zachbrose.bandcamp.com/track/for-you-single',
+    role: "guitar, bass, synth, vocals, writer",
+    blog: "This record is tight"
+  },
   {
+    id:9,
+    src:'/images/albumArt/mik.webp',
     artist: "Mik Cool",
-    album: "I Wanna Be Cool (2022)",
-    link: "https://open.spotify.com/album/7xcNguYtQESYdP53jTvWtf?si=BzuSjcVOS0m0TQQgWsCw8A"
+    album: "I Wanna Be Cool",
+    year: 2022,
+    link: 'https://www.mikcoolmusic.com/',
+    role: 'producer, mixing, guitars, synth, bass'
   },
   {
+    id:10,
+    src:'/images/albumArt/marathoner.jpg',
     artist: "Marathoner",
-    album: "Marathoner EP (2022)",
-    link: ""
+    album: "Marathoner (EP)",
+    year: 2022,
+    link: 'https://marathoner.bandcamp.com/album/marathoner',
+    role: 'producer, guitar'
   },
   {
+    id:11,
+    src:'/images/albumArt/youarehere.jpg',
     artist: "Jessica Manning",
-    album: "You Are Here (2021)",
-    link: "https://open.spotify.com/album/25S8Sgare0JjrSWPFr6wmw?si=VJLQoDfITXWFLdErHSvnpA"
+    album: "You Are Here",
+    year: 2021,
+    role: 'producer (except Know Better), writer, guitars, synth',
+    link: 'https://jessicamanning.bandcamp.com/album/what-if-i-run',
   },
   {
+    id:12,
+    src:'/images/albumArt/whatifirun.jpg',
+    artist: "Jessica Manning",
+    album: "What If I Run",
+    year: 2017,
+    role: 'writer, guitars, synth',
+    link: 'https://jessicamanning.bandcamp.com/album/you-are-here',
+  },
+  {
+    id:13,
+    src:'/images/albumArt/ac3.jpg',
     artist: "Andy Cook",
-    album: "I'll Be Fine (2020)",
-    link: "https://open.spotify.com/album/6ycg3gdO0YmC9hoXGndwtW?si=U8Yccu-LT9i0Q2C0ZiCUhQ"
+    album: "I'll Be Fine",
+    year: 2020,
+    role:'guitar',
+    link: "https://andycookandy.bandcamp.com/album/ill-be-fine"
+  },
+  {
+    id:14,
+    src:'/images/albumArt/andycook1.jpg',
+    artist: "Andy Cook",
+    album: "Modern Man",
+    year: 2018,
+    role:'guitar',
+    link: "https://andycookandy.bandcamp.com/album/modern-man"
   }
 ]
