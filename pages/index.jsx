@@ -1,23 +1,32 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Footer from '../components/footer'
+import { albumData } from "../albumData";
 
-export default function Home() {
+function Discography() {
+  const albums = albumData.map((album, i) => {
+    return (
+      <div key={`key-${i}`} className="small-container">
+        <a
+          className="album-link"
+          rel="noreferrer"
+          target="_blank"
+          href={album.link}
+        >
+          <img src={album.src} className="album-art" alt={album.alt} />
+        </a>
+        <h2 className="album-title">
+          {album.artist} - {album.album}
+        </h2>
+        <p className="credits">
+          {album.year} - {album.role}
+        </p>
+      </div>
+    );
+  });
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Zach Brose</title>
-      </Head>
-
-      <main style={{textAlign:'center'}}>
-          <Image
-            src='/images/zach3.jpg'
-            alt='a pic of zach brose'
-            width={800}
-            height={1200}
-          /> 
-      </main>
-    </div>
-  )
+    <>
+      <div className="large-container">{albums}</div>
+    </>
+  );
 }
+
+export default Discography;

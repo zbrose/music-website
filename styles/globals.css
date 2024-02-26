@@ -1,23 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
-
-a:link, a:visited {
-  border: 10x solid black;
-  color: black;
-  padding: 14px 15px;
-  margin: 10px;
-  display: inline-block;
-  border-radius: 25px;
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  text-decoration: underline;
-}
-
-a.active{
-  font-weight: bold;
-  text-decoration: underline;
-}
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&display=swap");
 
 * {
   box-sizing: border-box;
@@ -27,7 +8,38 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Gulzar', serif;
+  font-family: "Gulzar", serif;
+}
+
+#main-content {
+  margin: 0px 48px;
+}
+
+.flex-layout {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+a:link,
+a:visited {
+  border: 10x solid black;
+  color: black;
+  padding: 14px 15px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a.active {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 nav {
@@ -38,7 +50,6 @@ nav {
   margin: 50px auto;
 }
 
-
 main {
   min-height: 50vh;
 }
@@ -47,9 +58,8 @@ li {
   list-style: none;
 }
 
-.text-block{
-  width: 750px;
-  margin: 0 auto;
+#about {
+  width: 500px;
 }
 
 .flex-row {
@@ -71,7 +81,7 @@ li {
 }
 
 .small-container {
-  margin: 0 0 50px 0 ;
+  margin: 0 0 50px 0;
 }
 
 .album-art {
@@ -79,19 +89,19 @@ li {
   margin: 0px 0px;
 }
 
-a.album-link{
-  padding:0px;
-  margin:0px;
+a.album-link {
+  padding: 0px;
+  margin: 0px;
 }
 
 .small-container > p {
   margin: 0;
 }
-.small-container >img:hover{
+.small-container > img:hover {
   cursor: pointer;
 }
 
-.prod-box{
+.prod-box {
   width: 400px;
   margin: 0 0 50px 0;
 }
@@ -99,13 +109,13 @@ a.album-link{
   margin: 0;
 }
 
-.center{
+.center {
   display: flex;
   justify-content: center;
 }
 
-.icon{
-  color:red;
+.icon {
+  color: red;
 }
 
 .footer {
@@ -116,33 +126,32 @@ a.album-link{
   margin: 0 0 100px 0;
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
   /* padding-top: 25%; */
 }
 
-.album-zoom{
+.album-zoom {
   width: 700px;
 }
 
-.album-title{
+.album-title {
   margin: 0px;
   height: 40px;
 }
 
-.artist-name{
+.artist-name {
   margin: 0;
 }
 
-.credits{
-  margin:0px;
+.credits {
+  margin: 0px;
   height: 25px;
 }
 
-
-@media screen and (max-width:750px){
+@media screen and (max-width: 1100px) {
   nav {
     display: flex;
     flex-direction: column;
@@ -152,7 +161,7 @@ a.album-link{
     margin: 0px;
   }
 
-  .nav-links{
+  .nav-links {
     font-size: 15px;
     display: flex;
     flex-direction: row;
@@ -160,29 +169,35 @@ a.album-link{
     align-items: center;
   }
 
-  .header{
+  .header {
     margin: 20px 0 0 0;
   }
   .nav-links > a {
     margin: 0px;
     padding-top: 0px;
   }
-  .album-art{
+  .album-art {
     width: 300px;
   }
 
-  .text-block{
-    width: 90%;
-  }
-
-  .album-title{
-    font-size:16px;
+  .album-title {
+    font-size: 16px;
     height: 25px;
-
   }
 
-  .credits{
+  .credits {
     font-size: 14px;
   }
 
+  .flex-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  #about {
+    width: 90vw;
+  }
 }

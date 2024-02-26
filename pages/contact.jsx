@@ -1,7 +1,5 @@
 function Contact() {
-    return ( 
-        <h4 className="contact">zrbrose@gmail.com</h4>
-    );
+  return <h3 className="contact">zrbrose@gmail.com</h3>;
 }
 
 export default Contact;
