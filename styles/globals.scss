@@ -82,14 +82,7 @@ nav {
       padding: 0px;
       height: 26px;
     }
-    .icon:hover {
-      color: red;
-    }
   }
-}
-
-li {
-  list-style: none;
 }
 
 #about {
@@ -113,6 +106,10 @@ li {
 .album-art {
   width: 400px;
   margin: 0px;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 a.album-link {
