@@ -8,7 +8,7 @@ export const albumData = [
     year: 2022,
     link: "https://zachbrose.bandcamp.com/album/smear",
     role: "all instruments, producer, mixer, engineer",
-    blog: "Smear is Zach's first full-length instrumental album",
+    blog: "Smear is Zach's first full-length instrumental album.  Its so cool.“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 13,
