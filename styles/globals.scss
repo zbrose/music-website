@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gulzar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Quicksand:wght@300..700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -42,16 +44,48 @@ a.active {
   text-decoration: underline;
 }
 
+/// @group navigation
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 50px auto;
-}
+  padding: 0px 100px;
 
-main {
-  min-height: 50vh;
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header {
+      font-size: 36px;
+      margin: 0px;
+      height: 70px;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    a {
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 195px;
+    a {
+      padding: 0px;
+      height: 26px;
+    }
+    .icon:hover {
+      color: red;
+    }
+  }
 }
 
 li {
@@ -62,20 +96,12 @@ li {
   width: 500px;
 }
 
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
 .large-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   max-width: 1500px;
-  width: 100vw;
   margin: 0 auto;
   text-align: left;
 }
@@ -86,7 +112,7 @@ li {
 
 .album-art {
   width: 400px;
-  margin: 0px 0px;
+  margin: 0px;
 }
 
 a.album-link {
@@ -101,40 +127,10 @@ a.album-link {
   cursor: pointer;
 }
 
-.prod-box {
-  width: 400px;
-  margin: 0 0 50px 0;
-}
-.prod-box > p {
-  margin: 0;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-}
-
-.icon {
-  color: red;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  margin: 0 0 100px 0;
-}
-
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-top: 25%; */
-}
-
-.album-zoom {
-  width: 700px;
 }
 
 .album-title {
@@ -157,25 +153,35 @@ a.album-link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 100px;
-    margin: 0px;
+    margin: 26px auto;
+    padding: 0px;
+
+    .nav-links {
+      font-size: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      order: 3;
+      a {
+        padding: 0px;
+      }
+    }
+    .heading {
+      .header {
+        margin: 0px;
+        order: 1;
+        height: 70px;
+      }
+      span {
+        order: 2;
+      }
+    }
+    .social-links {
+      order: 0;
+    }
   }
 
-  .nav-links {
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  .header {
-    margin: 20px 0 0 0;
-  }
-  .nav-links > a {
-    margin: 0px;
-    padding-top: 0px;
-  }
   .album-art {
     width: 300px;
   }

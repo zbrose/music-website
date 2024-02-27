@@ -1,18 +1,13 @@
 // built in link for SSR Op and SEO from next
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Footer from "./footer";
 
 function Navbar() {
   const router = useRouter();
   return (
     <>
       <nav>
-        <div>
-          <h1 className="header">Zach Brose</h1>
-          {/* <span id="sub-header">
-            Producer | Songwriter | Multi-Instrumentalist
-          </span> */}
-        </div>
         <div className="nav-links">
           <Link href="/">
             <a className={router.pathname == "/" ? "active" : ""}>Home</a>
@@ -26,6 +21,11 @@ function Navbar() {
             </a>
           </Link>
         </div>
+        <div className="heading">
+          <h1 className="header">Zach Brose</h1>
+          <span>Producer &#124; Songwriter &#124; Multi-Instrumentalist</span>
+        </div>
+        <Footer />
       </nav>
     </>
   );

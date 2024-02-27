@@ -1,6 +1,6 @@
 import { albumData } from "../albumData";
 
-function Discography() {
+export default function Discography() {
   const albums = albumData.map((album, i) => {
     return (
       <div key={`key-${i}`} className="small-container">
@@ -28,5 +28,3 @@ function Discography() {
     </>
   );
 }
-
-export default Discography;

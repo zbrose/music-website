@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-function About() {
+export default function About() {
   return (
     <>
-      <div className="flex-layout ">
+      <div className="flex-layout">
         <div>
           <Image
             src="/images/zach2.jpg"
@@ -42,5 +42,3 @@ function About() {
     </>
   );
 }
-
-export default About;
