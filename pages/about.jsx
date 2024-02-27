@@ -33,7 +33,7 @@ function About() {
 
           <p>
             Zach also writes and records in Kansas Plates and ar.birn.
-            &nbsp;He's produced records for Jessica Manning, Mik Cool and
+            &nbsp;He&apos;s produced records for Jessica Manning, Mik Cool and
             Marathoner, and continues to exercise his instrumental diversity in
             sessions and remote recording work.
           </p>
