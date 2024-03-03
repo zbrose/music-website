@@ -1,5 +1,16 @@
 export const albumData = [
   {
+    id: 15,
+    src: "/images/albumArt/danceWithGrief.jpg",
+    alt: "A Dance with Grief cover",
+    artist: "Zach Brose",
+    album: "A Dance With Grief",
+    year: 2024,
+    link: "https://zachbrose.bandcamp.com/track/a-dance-with-grief",
+    role: "piano, producer, mixer",
+    blog: "",
+  },
+  {
     id: 14,
     src: "/images/albumArt/smear.png",
     alt: "a picture of the smear album cover",
