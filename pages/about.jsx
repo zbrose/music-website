@@ -10,6 +10,7 @@ export default function About() {
             alt="a pic of zach brose"
             width={500}
             height={750}
+            quality={100}
           />
         </div>
         <div id="about">
