@@ -15,8 +15,8 @@ export default function About() {
         </div>
         <div id="about">
           <p>
-            Zach Brose is a producer, songwriter and multi-instrumentalist from
-            Minneapolis, MN and based in Los Angeles, CA. &nbsp; His music
+            Zach Brose is a producer, songwriter, composer, and
+            multi-instrumentalist based in Los Angeles, CA. &nbsp; His music
             varies widely from indie-rock centered songwriting to experimental
             electronica to long-form ambient environments. &nbsp;Not one to
             settle on any formula, Zach&apos;s curiosity for new methods, sounds
@@ -24,7 +24,15 @@ export default function About() {
           </p>
 
           <p>
-            Zachs most recent release, <i>Smear</i>, covers expansive sonic
+            Zach has co-founded groups such as Kansas Plates and ar.birn,
+            produced records for Jessica Manning, Mik Cool and Marathoner, and
+            continues to exercise his instrumental diversity in production and
+            recording work. His music has appeared in the 2022 Winter Olympics,
+            The Kelly Clarkson Show, and The Today Show.
+          </p>
+
+          <p>
+            Zach&apos;s latest release, <i>Smear</i>, covers expansive sonic
             ground from stomping sampled drums of &apos;Daylight&apos; to the
             hypnotic groove of &apos;Seq iiii&apos; into the swaying bossa of
             &apos;Susanne&apos;. &nbsp;<i>Smear</i> reflects his reluctance to
@@ -33,10 +41,8 @@ export default function About() {
           </p>
 
           <p>
-            Zach also writes and records in Kansas Plates and ar.birn.
-            &nbsp;He&apos;s produced records for Jessica Manning, Mik Cool and
-            Marathoner, and continues to exercise his instrumental diversity in
-            sessions and remote recording work.
+            More recently, Zach has delved into the world of composing for film,
+            TV and video games.
           </p>
         </div>
       </div>

@@ -23,7 +23,10 @@ function Navbar() {
         </div>
         <div className="heading">
           <h1 className="header">Zach Brose</h1>
-          <span>Producer &#124; Songwriter &#124; Multi-Instrumentalist</span>
+          <span>
+            Producer &#124; Songwriter &#124; Composer &#124;
+            Multi-Instrumentalist
+          </span>
         </div>
         <Footer />
       </nav>
