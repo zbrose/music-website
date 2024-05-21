@@ -7,7 +7,7 @@ export default function About() {
         <div>
           <Image
             src="/images/zach6.jpg"
-            alt="a pic of zach brose"
+            alt="an image of zach brose"
             width={500}
             height={750}
             quality={100}

@@ -9,16 +9,20 @@ function Navbar() {
     <>
       <nav>
         <div className="nav-links">
-          <Link href="/">
-            <a className={router.pathname == "/" ? "active" : ""}>Home</a>
+          <Link href="/" className={router.pathname == "/" ? "active" : ""}>
+            Home
           </Link>
-          <Link href="/about">
-            <a className={router.pathname == "/about" ? "active" : ""}>About</a>
+          <Link
+            href="/about"
+            className={router.pathname == "/about" ? "active" : ""}
+          >
+            About
           </Link>
-          <Link href="/contact">
-            <a className={router.pathname == "/contact" ? "active" : ""}>
-              Contact
-            </a>
+          <Link
+            href="/contact"
+            className={router.pathname == "/contact" ? "active" : ""}
+          >
+            Contact
           </Link>
         </div>
         <div className="heading">

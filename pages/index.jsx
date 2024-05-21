@@ -1,17 +1,18 @@
+import Link from "next/link";
 import { albumData } from "../albumData";
 
 export default function Discography() {
   const albums = albumData.map((album, i) => {
     return (
       <div key={`key-${i}`} className="small-container">
-        <a
+        <Link
           className="album-link"
           rel="noreferrer"
           target="_blank"
           href={album.link}
         >
           <img src={album.src} className="album-art" alt={album.alt} />
-        </a>
+        </Link>
         <h2 className="album-title">
           {album.artist} - {album.album}
         </h2>
