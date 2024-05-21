@@ -11,6 +11,7 @@ export default function About() {
             width={500}
             height={750}
             quality={100}
+            priority={true}
           />
         </div>
         <div id="about">

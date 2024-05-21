@@ -24,6 +24,12 @@ function Navbar() {
           >
             Contact
           </Link>
+          <Link
+            href="/blog"
+            className={router.pathname == "/blog" ? "active" : ""}
+          >
+            Blog
+          </Link>
         </div>
         <div className="heading">
           <h1 className="header">Zach Brose</h1>
