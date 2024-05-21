@@ -1,6 +1,7 @@
 ---
 title: "First Blog Post"
 date: "2024-05-21"
+description: "This is the description of the first post."
 ---
 
 # Title
