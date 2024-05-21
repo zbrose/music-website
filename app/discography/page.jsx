@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
-import { albumData } from "../albumData";
+import { albumData } from "./../../albumData";
+import "../../styles/globals.scss";
 
 export default function Discography() {
   const albums = albumData.map((album, i) => {
@@ -23,9 +26,5 @@ export default function Discography() {
     );
   });
 
-  return (
-    <>
-      <div className="large-container">{albums}</div>
-    </>
-  );
+  return <div className="large-container">{albums}</div>;
 }
