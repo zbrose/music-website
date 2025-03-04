@@ -2,7 +2,9 @@ import Link from "next/link";
 import { albumData } from "../albumData";
 
 export default function Discography() {
-  const albums = albumData.map((album, i) => {
+  const sortedData = albumData.sort((a, b) => b.year - a.year);
+
+  const albums = sortedData.map((album, i) => {
     return (
       <div key={`key-${i}`} className="small-container">
         <Link
