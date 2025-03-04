@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <div className="flex-layout">
-        <div>
+        <div className="about-img">
           <Image
             src="/images/zach6.jpg"
             alt="an image of zach brose"

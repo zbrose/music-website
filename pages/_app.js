@@ -1,5 +1,6 @@
 import "../styles/globals.scss";
 import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,6 +9,7 @@ function MyApp({ Component, pageProps }) {
       <main id="main-content">
         <Component {...pageProps} />
       </main>
+      <Footer />
     </>
   );
 }

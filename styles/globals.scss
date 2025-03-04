@@ -13,6 +13,17 @@ body {
   font-family: "Gulzar", serif;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+}
+
 #main-content {
   margin: 0px 48px;
 }
@@ -47,11 +58,11 @@ a.active {
 /// @group navigation
 nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   max-width: 1200px;
-  margin: 50px auto;
-  padding: 0px 100px;
+  padding: 50px 0px;
+  margin: 0 auto;
 
   .heading {
     display: flex;
@@ -102,6 +113,8 @@ nav {
 
 .small-container {
   margin: 0 0 50px 0;
+  max-width: 400px;
+  line-height: 1.5;
 }
 
 .album-art {
@@ -151,8 +164,7 @@ a.album-link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 26px auto;
-    padding: 0px;
+    padding: 26px 0px;
 
     .nav-links {
       font-size: 16px;
@@ -203,5 +215,13 @@ a.album-link {
 
   #about {
     width: 90vw;
+  }
+
+  .small-container {
+    max-width: 300px;
+  }
+
+  .about-img {
+    display: none;
   }
 }
