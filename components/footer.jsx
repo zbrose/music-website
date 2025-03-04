@@ -7,6 +7,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
         href="https://open.spotify.com/artist/3Tnf72o3WrwrwvNJ1GKsrN?si=hReAyObMRhiB-GT_twU7PQ"
+        className="social-link"
       >
         <Image
           className="icon"
@@ -20,6 +21,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
         href="https://zachbrose.bandcamp.com/"
+        className="social-link"
       >
         <Image
           className="icon"
@@ -33,6 +35,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
         href="https://www.instagram.com/zach_brose/"
+        className="social-link"
       >
         <Image
           className="icon"
