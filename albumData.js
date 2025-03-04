@@ -17,7 +17,7 @@ export const albumData = [
     artist: "John Mark Nelson",
     album: "Allegory",
     year: 2024,
-    link: "https://zachbrose.bandcamp.com/track/a-dance-with-grief",
+    link: "https://johnmarknelsonmusic.bandcamp.com/album/allegory",
     role: "guitar, keyboards",
     blog: "",
   },
