@@ -4,7 +4,7 @@ export const albumData = [
     src: "/images/albumArt/jmn-hideaway.jpg",
     alt: "Hideaway cover",
     artist: "John Mark Nelson",
-    album: "Hideaway-EP",
+    album: "Hideaway (EP)",
     year: 2022,
     link: "https://johnmarknelsonmusic.bandcamp.com/album/hideaway-ep",
     role: "additional production (tracks 3+4), guitar, synths, percussion",
@@ -18,7 +18,7 @@ export const albumData = [
     album: "Allegory",
     year: 2024,
     link: "https://zachbrose.bandcamp.com/track/a-dance-with-grief",
-    role: "slide guitar, keyboards",
+    role: "guitar, keyboards",
     blog: "",
   },
   {
